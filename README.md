@@ -6,21 +6,22 @@
     桌面 > 葉正聖老師上課軟體 > Processing > 7.zip解壓縮
 
 ## 2. 畫正方
-    (1) 靜態模式(剛開始)```p
-            void setup()
-            {
-                size(500,500);
-            }
+    (1) 靜態模式(剛開始)
+```p
+      void setup(){
+            size(500,500);
+      }
 ```
     (2) 動態模式(持續)
             ```p
-            void draw()
-            {
-                  background(#73E68C);
-                  fill(#F5FFFA);     //顏色
-                  rect(100,100,100,150);　　//長方形（X位置 , Y位置 , 長 , 寬）
-                  rect(mouseX,mouseY,100,150);
-            }```
+        void draw()
+        {
+              background(#73E68C);
+              fill(#F5FFFA);     //顏色
+              rect(100,100,100,150);　　//長方形（X位置 , Y位置 , 長 , 寬）
+              rect(mouseX,mouseY,100,150);
+        }
+        ```
 
 ## 3. 變成網頁形式
 
@@ -34,26 +35,26 @@
 
 ## 4. 滑鼠畫圖
 ```p
-            void setup()　　///只執行一次
-            {   
-                size(500,500);   ///畫面大小
-                background(#FFFFF2);   ///背景顏色
-                stroke(255,0,0);   ///畫筆顏色
-            }
-            void draw()　　///每秒60次
-            {   
-                if(mousePressed)
-                {
-                    line(mouseX , mouseY , pmouseX , pmouseY );   ///畫線
-                }
-            }
-            void keyPressed()
-            {
-                if (key == '1' ) stroke(#4682B4);
-                if (key == '2' ) stroke(#6A5ACD);
-                if (key == '3' ) stroke(#E6005C);
-            }
-            ```
+void setup()　　///只執行一次
+{   
+    size(500,500);   ///畫面大小
+    background(#FFFFF2);   ///背景顏色
+    stroke(255,0,0);   ///畫筆顏色
+}
+void draw()　　///每秒60次
+{   
+    if(mousePressed)
+    {
+        line(mouseX , mouseY , pmouseX , pmouseY );   ///畫線
+    }
+}
+void keyPressed()
+{
+    if (key == '1' ) stroke(#4682B4);
+    if (key == '2' ) stroke(#6A5ACD);
+    if (key == '3' ) stroke(#E6005C);
+}
+```
 # Week02
 ## 0.做卡片
 ## 1.一張卡
