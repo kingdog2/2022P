@@ -8,20 +8,20 @@
 ## 2. 畫正方
     (1) 靜態模式(剛開始)
 ```p
-      void setup(){
-            size(500,500);
-      }
+void setup(){
+    size(500,500);
+}
 ```
     (2) 動態模式(持續)
-            ```p
-        void draw()
-        {
-              background(#73E68C);
-              fill(#F5FFFA);     //顏色
-              rect(100,100,100,150);　　//長方形（X位置 , Y位置 , 長 , 寬）
-              rect(mouseX,mouseY,100,150);
-        }
-        ```
+```p
+void draw()
+{
+  background(#73E68C);
+  fill(#F5FFFA);     //顏色
+  rect(100,100,100,150);　　//長方形（X位置 , Y位置 , 長 , 寬）
+  rect(mouseX,mouseY,100,150);
+}
+```
 
 ## 3. 變成網頁形式
 
