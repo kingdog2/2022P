@@ -1,9 +1,9 @@
 # 2022P
 學習互動技術概論
-#Week01
-#Week02
-##0.做卡片
-##1.一張卡
+# Week01
+# Week02
+## 0.做卡片
+## 1.一張卡
 size(500,500);
 
 int w=25;
@@ -15,7 +15,7 @@ fill(0,255,0);
 rect(100,100,150,250,20);
 
 
-##2.多張卡
+## 2.多張卡
 ```p
 void setup(){
 
@@ -49,7 +49,7 @@ void drawCard(int x, int y){
 ```
 
 
-##3.有字的Poker
+## 3.有字的Poker
 ```c++
 void setup(){
 
@@ -92,7 +92,7 @@ void drawCard(int x, int y, String face){
 
 
 
-###3-1.中文字
+### 3-1.中文字
 ```c++
 void setup(){
 
@@ -138,7 +138,7 @@ void drawCard(int x, int y, String face){
 ```
 
 
-###3-2.中文字顏色
+### 3-2.中文字顏色
 ```c++
 void setup(){
 
